@@ -99,7 +99,8 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    text-align: center;
+    // font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -248,7 +249,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -271,6 +272,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  opacity: 0.95;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -289,7 +291,7 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 
 // CV
@@ -498,8 +500,9 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          border: 1px solid var(--global-theme-color);
+          // padding-left: 1rem;
+          // padding-right: 1rem;
           a {
             color: white;
             &:hover {
@@ -540,7 +543,7 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: 1px solid var(--global-footer-bg-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
@@ -584,7 +587,7 @@ footer.sticky-bottom {
         border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        border-color: var(--global-footer-bg-color);
       }
     }
   }
