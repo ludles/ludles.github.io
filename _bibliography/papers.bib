@@ -1,33 +1,165 @@
 ---
 ---
+@inproceedings{luReducingAnnotationNeed2022,
+  title = {Reducing Annotation Need in Self-Explanatory Models for Lung Nodule Diagnosis},
+  booktitle = {Workshop on Interpretability of Machine Intelligence in Medical Image Computing (iMIMIC) at MICCAI},
+  author = {J. Lu and C. Yin and O. Krause and K. Erleben and M. B. Nielsen and S. Darkner},
+  year = {2022},
+
+  abbr={iMIMIC},
+  award={Oral},
+  abstract={Feature-based self-explanatory methods explain their classification in terms of human-understandable features. In the medical imaging community, this semantic matching of clinical knowledge adds significantly to the trustworthiness of the AI. However, the cost of additional annotation of features remains a pressing issue. We address this problem by proposing cRedAnno, a data-/annotation-efficient self-explanatory approach for lung nodule diagnosis. cRedAnno considerably reduces the annotation need by introducing self-supervised contrastive learning to alleviate the burden of learning most parameters from annotation, replacing end-to-end training with two-stage training. When training with hundreds of nodule samples and only 1% of their annotations, cRedAnno achieves competitive accuracy in predicting malignancy, meanwhile significantly surpassing most previous works in predicting nodule attributes. Visualisation of the learned space further indicates that the correlation between the clustering of malignancy and nodule attributes coincides with clinical knowledge. Our complete code is open-source available: https://github.com/diku-dk/credanno. },
+  arxiv={2206.13608},
+  preview={luReducingAnnotationNeed2022.svg},
+  code={https://github.com/diku-dk/credanno},
+  poster={poster_credanno.pdf},
+  selected={true},
+}
+
+@article{luPanacea2021,
+  title = {Is Image-to-Image Translation the Panacea for Multimodal Image Registration? A Comparative Study},
+  author = {J. Lu and J. Öfverstedt and J. Lindblad and N. Sladoje},
+  year = {2021},
+  journal = {arXiv:2103.16262 [cs, eess]},
+  eprint = {2103.16262},
+  eprinttype = {arxiv},
+  primaryclass = {cs, eess},
+  archiveprefix = {arXiv},
+
+  abbr={arXiv},
+  abstract={Despite current advancement in the field of biomedical image processing, propelled by the deep learning revolution, multimodal image registration, due to its several challenges, is still often performed manually by specialists. The recent success of image-to-image (I2I) translation in computer vision applications and its growing use in biomedical areas provide a tempting possibility of transforming the multimodal registration problem into a, potentially easier, monomodal one. We conduct an empirical study of the applicability of modern I2I translation methods for the task of multimodal biomedical image registration. We compare the performance of four Generative Adversarial Network (GAN)-based methods and one contrastive representation learning method, subsequently combined with two representative monomodal registration methods, to judge the effectiveness of modality translation for multimodal image registration. We evaluate these method combinations on three publicly available multimodal datasets of increasing difficulty, and compare with the performance of registration by Mutual Information maximisation and one modern data-specific multimodal registration method. Our results suggest that, although I2I translation may be helpful when the modalities to register are clearly correlated, registration of modalities which express distinctly different properties of the sample are not well handled by the I2I translation approach. When less information is shared between the modalities, the I2I translation methods struggle to provide good predictions, which impairs the registration performance. The evaluated representation learning method, which aims to find an in-between representation, manages better, and so does the Mutual Information maximisation approach. We share our complete experimental setup as open-source (https://github.com/MIDA-group/MultiRegEval).},
+  arxiv={2103.16262},
+  preview={luPanacea2021_thumb.png},
+  code={https://github.com/MIDA-group/MultiRegEval},
+  selected={true},
+}
+
+@inproceedings{luDeepLearningBased2020,
+  title = {A {{Deep Learning Based Pipeline}} for {{Efficient Oral Cancer Screening}} on {{Whole Slide Images}}},
+  booktitle = {International Conference on Image Analysis and Recognition (ICIAR)},
+  author = {J. Lu and N. Sladoje and C. Runow Stark and E. Darai Ramqvist and J-M. Hirsch and J. Lindblad},
+  year = {2020},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  pages = {249--261},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-030-50516-5_22},
+  isbn = {978-3-030-50516-5},
+
+  abbr={ICIAR},
+  award={Oral},
+  abstract={Oral cancer incidence is rapidly increasing worldwide. The most important determinant factor in cancer survival is early diagnosis. To facilitate large scale screening, we propose a fully automated pipeline for oral cancer detection on whole slide cytology images. The pipeline consists of fully convolutional regression-based nucleus detection, followed by per-cell focus selection, and CNN based classification. Our novel focus selection step provides fast per-cell focus decisions at human-level accuracy. We demonstrate that the pipeline provides efficient cancer classification of whole slide cytology images, improving over previous results both in terms of accuracy and feasibility. The complete source code is made available as open source ( https://github.com/MIDA-group/OralScreen ).},
+  arxiv={1910.10549},
+  html={https://doi.org/10.1007/978-3-030-50516-5_22},
+  preview={https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-50516-5_22/MediaObjects/500864_1_En_22_Fig1_HTML.png?as=webp},
+  code={https://github.com/MIDA-group/OralScreen},
+  selected={true},
+}
+
+@inproceedings{pielawskiCoMIRContrastiveMultimodal2020,
+  title = {{{CoMIR}}: {{Contrastive}} Multimodal Image Representation for Registration},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  author = {N. Pielawski and E. Wetzer and J. Öfverstedt and J. Lu and C. Wählby and J. Lindblad and N. Sladoje},
+  year = {2020},
+  volume = {33},
+  pages = {18433--18444},
+
+  abbr={NeurIPS},
+  abstract={We propose contrastive coding to learn shared, dense image representations, referred to as CoMIRs (Contrastive Multimodal Image Representations). CoMIRs enable the registration of multimodal images where existing registration methods often fail due to a lack of sufficiently similar image structures. CoMIRs reduce the multimodal registration problem to a monomodal one, in which general intensity-based, as well as feature-based, registration algorithms can be applied. The method involves training one neural network per modality on aligned images, using a contrastive loss based on noise-contrastive estimation (InfoNCE). Unlike other contrastive coding methods, used for, e.g., classification, our approach generates image-like representations that contain the information shared between modalities. We introduce a novel, hyperparameter-free modification to InfoNCE, to enforce rotational equivariance of the learnt representations, a property essential to the registration task. We assess the extent of achieved rotational equivariance and the stability of the representations with respect to weight initialization, training set, and hyperparameter settings, on a remote sensing dataset of RGB and near-infrared images. We evaluate the learnt representations through registration of a biomedical dataset of bright-field and second-harmonic generation microscopy images; two modalities with very little apparent correlation. The proposed approach based on CoMIRs significantly outperforms registration of representations created by GAN-based image-to-image translation, as well as a state-of-the-art, application-specific method which takes additional knowledge about the data into account. Code is available at: https://github.com/MIDA-group/CoMIR.},
+  arxiv={2006.06325},
+  html={https://proceedings.neurips.cc/paper/2020/hash/d6428eecbe0f7dff83fc607c5044b2b9-Abstract.html},
+  pdf={https://proceedings.neurips.cc/paper/2020/file/d6428eecbe0f7dff83fc607c5044b2b9-Paper.pdf},
+  preview={https://github.com/MIDA-group/CoMIR/raw/master/resources/comir_pipeline.jpg},
+  code={https://github.com/MIDA-group/CoMIR},
+  poster={https://www.it.uu.se/research/visual_information_and_interaction/research/mida/NeurIPS2020.pdf},
+  slides={https://slideslive.com/38937317},
+  selected={true},
+}
+
+@article{luEvaluationLearningbasedMethods2020,
+  title = {Evaluation of {{Learning-based Methods}} for {{Multimodal Biomedical Image Registration}}},
+  author = {J. Lu},
+  year = {2020},
+  journal = {Master Programme in Computational Science},
+  langid = {english},
+  
+  abbr={MSc Thesis},
+  html={http://uu.diva-portal.org/smash/record.jsf?pid=diva2:1602468},
+  preview={MultimodalUU_thumb.jpg},
+  pdf={http://uu.diva-portal.org/smash/get/diva2:1602468/FULLTEXT01.pdf},
+}
+
+@inproceedings{luImagetoImage2021,
+  title = {Image-to-Image Translation in Multimodal Image Registration : How Well Does It Work?},
+  booktitle = {COMULIS Conference},
+  author = {J. Lu and J. Öfverstedt and J. Lindblad and N. Sladoje},
+  year = {2021},
+
+  abbr={COMULIS},
+  html={https://cci-gothenburg.github.io/LuJ},
+  preview={https://www.it.uu.se/research/visual_information_and_interaction/research/mida/GAN.png},
+  poster={https://www.it.uu.se/research/visual_information_and_interaction/research/mida/ComulisLu.pdf},
+}
+
+@article{luDatasetsEvaluationMultimodal2021,
+  title = {Datasets for {{Evaluation}} of {{Multimodal Image Registration}}},
+  author = {J. Lu and J. Öfverstedt and J. Lindblad and N. Sladoje},
+  year = {2021},
+  journal = {DOI: 10.5281/zenodo.5557568},
+  publisher = {{Zenodo}},
+  doi = {10.5281/zenodo.5557568},
+  langid = {english},
+
+  award={Dataset},
+  abstract={In total, it contains 864 image pairs created from the aerial dataset, 5040 image pairs created from the cytological dataset, 536 image pairs created from the histological dataset, and metadata with scripts to create the 480 volume pairs from the radiological dataset. Each image pair consists of a reference patch I_Ref and its corresponding initial transformed patch I_Init in both modalities, along with the ground-truth transformation parameters to recover it.},
+  html={https://doi.org/10.5281/zenodo.5557568},
+  preview={luDatasetsEvaluationMultimodal2021_thumb.png},
+}
+
+@inproceedings{WetzerRegistrationMultimodal2021,
+  title = {Registration of Multimodal Microscopy Images using CoMIR - Learned Structural Image Representations},
+  booktitle = {COMULIS Conference},
+  author = {E. Wetzer and N. Pielawski and J. Öfverstedt and J. Lu and C. Wählby and J. Lindblad and N. Sladoje},
+  year = {2021},
+
+  abbr={COMULIS},
+  html={https://cci-gothenburg.github.io/WetzerE},
+  poster={https://www.it.uu.se/research/visual_information_and_interaction/research/mida/ComulisElisabeth.pdf},
+}
+
+@inproceedings{WetzerContrastiveLearning2021,
+  title = {Contrastive Learning for Equivariant Multimodal Image Representations},
+  booktitle = {The Power of Women in Deep Learning Workshop at the Mathematics of Deep Learning Programme at the Isaac Newton Institute},
+  author = {E. Wetzer and N. Pielawski and E. Breznik and J. Öfverstedt and J. Lu and C. Wählby and J. Lindblad and N. Sladoje},
+  year = {2021},
+
+  award={Workshop},
+  poster={https://www.it.uu.se/research/visual_information_and_interaction/research/mida/WDL21_poster.pdf},
+}
+
+@inproceedings{WetzerRotationallyEquivariantRepresentation2022,
+  title = {Rotationally Equivariant Representation Learning for Multimodal Images},
+  booktitle = {Swedish Society for Automated Image Analysis (SSBA) Symposium on Image Analysis},
+  author = {E. Wetzer and N. Pielawski and J. Öfverstedt and J. Lu and C. Wählby and J. Lindblad and N. Sladoje},
+  year = {2022},
+
+  abbr={SSBA},
+}
+
+@inproceedings{WetzerCrossmodalRepresentation2020,
+  title = {Cross-modal Representation Learning for Efficient Registration of Multiphoton and Brightfield Microscopy Images of Skin Tissue},
+  booktitle = {NEUBIAS Conference},
+  author = {E. Wetzer and N. Pielawski and J. Öfverstedt and J. Lu and J. Lindblad and I. Floroiu and A. Dumitru and M. Costache and R. Hristu and S.G. Stanciu and N. Sladoje},
+  year = {2020},
+
+  abbr={NEUBIAS},
+}
+
+
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
 @article{PhysRev.47.777,
-  abbr={PhysRev},
-  award={Oral},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein, A. and Podolsky, B. and Rosen, N.},
   abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
@@ -41,44 +173,21 @@
   publisher=aps,
   doi={10.1103/PhysRev.47.777},
   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+
+  abbr={PhysRev},
+  award={Oral},
+  abstract={},
+  arxiv={},
+  bibtex_show={},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   pdf={example_pdf.pdf},
   preview={wave-mechanics.gif},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  supp={},
+  blog={},
+  code={https://github.com/MIDA-group/CoMIR},
+  poster={},
+  slides={},
+  website={},
+  additional={}, 
+  selected={},
 }

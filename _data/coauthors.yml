@@ -1,34 +1,47 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Yin":
+  - firstname: ["C.", "Chong"]
+    url: https://scholar.google.com/citations?hl=en&user=mIlgsX4AAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Krause":
+  - firstname: ["O.", "Oswin"]
+    url: https://scholar.google.com/citations?hl=en&user=5ER3NYoAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Erleben":
+  - firstname: ["K.", "Kenny"]
+    url: https://scholar.google.com/citations?hl=en&user=CQkvlpUAAAAJ
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Nielsen": 
+  - firstname: ["M. B.", "Michael Bachmann"]
+    url: https://scholar.google.com/citations?hl=en&user=9gTyw1wAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Darkner":
+  - firstname: ["S.", "Sune"]
+    url: https://scholar.google.com/citations?hl=en&user=j04-HfIAAAAJ
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Wetzer":
+  - firstname: ["E.", "Elisabeth"]
+    url: https://scholar.google.com/citations?hl=en&user=qSc3kA8AAAAJ
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Pielawski":
+  - firstname: ["N.", "Nicolas"]
+    url: https://scholar.google.com/citations?hl=en&user=MmqXB5oAAAAJ
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Öfverstedt":
+  - firstname: ["J.", "Johan"]
+    url: https://scholar.google.com/citations?user=GMminVMAAAAJ&hl=en
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Wählby":
+  - firstname: ["C.", "Carolina"]
+    url: https://scholar.google.com/citations?user=17soDRoAAAAJ&hl=en
+
+"Lindblad":
+  - firstname: ["J.", "Joakim"]
+    url: https://scholar.google.com/citations?user=BtuFYvQAAAAJ&hl=en
+
+"Sladoje":
+  - firstname: ["N.", "Nataša"]
+    url: https://scholar.google.com/citations?user=n4uDNF8AAAAJ&hl=en
+
+# "":
+#   - firstname: [".", ""]
+#     url: 
