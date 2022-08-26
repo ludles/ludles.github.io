@@ -6,8 +6,8 @@ subtitle: <b>PhD Student</b> @ <a href="https://www.ku.dk/english/">University o
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile_img.jpeg
+  image_circular: true # crops the image to make it circular
   address: Copenhagen, Denmark # >
     # <p>555 your office number</p>
     # <p>123 your address street</p>
