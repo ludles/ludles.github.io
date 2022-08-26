@@ -9,15 +9,15 @@ nav_order: 4
 
 ## Courses
 
-#### [Signal and Image Processing (SIP)](https://kurser.ku.dk/course/ndaa09027u/2021-2022)
-Spring 2022, Teaching Assistant, University of Copenhagen
+#### [Signal and Image Processing (SIP), Spring 2022](https://kurser.ku.dk/course/ndaa09027u/2021-2022)
+Teaching Assistant, University of Copenhagen
 
 <!-- - MSc Level
 - NDAA09027U -->
 
 
-#### [Database Design](https://www.uu.se/en/admissions/master/selma/kursplan/?kKod=1DL301)
-Autumn 2019, Teaching Assistant, Uppsala University
+#### [Database Design, Autumn 2019](https://www.uu.se/en/admissions/master/selma/kursplan/?kKod=1DL301)
+Teaching Assistant, Uppsala University
 
 <!-- - BSc Level
 - 1DL301 -->
