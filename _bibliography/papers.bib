@@ -1,5 +1,22 @@
 ---
 ---
+@article{lu2022credanno,
+  title={cRedAnno+: Annotation Exploitation in Self-Explanatory Lung Nodule Diagnosis},
+  author={J. Lu and C. Yin and K. Erleben and M. B. Nielsen and S. Darkner},
+  year={2022},
+  journal = {arXiv:2210.16097 [eess.IV]},
+  eprint={2210.16097},
+  archivePrefix={arXiv},
+  primaryClass={eess.IV},
+
+  abbr={arXiv},
+  abstract={Recently, attempts have been made to reduce annotation requirements in feature-based self-explanatory models for lung nodule diagnosis. As a representative, cRedAnno achieves competitive performance with considerably reduced annotation needs by introducing self-supervised contrastive learning to do unsupervised feature extraction. However, it exhibits unstable performance under scarce annotation conditions. To improve the accuracy and robustness of cRedAnno, we propose an annotation exploitation mechanism by conducting semi-supervised active learning in the learned semantically meaningful space to jointly utilise the extracted features, annotations, and unlabelled data. The proposed approach achieves comparable or even higher malignancy prediction accuracy with 10x fewer annotations, meanwhile showing better robustness and nodule attribute prediction accuracy. Our complete code is open-source available: https://github.com/diku-dk/credanno.},
+  arxiv={2210.16097},
+  preview={https://raw.githubusercontent.com/diku-dk/credanno/09a737fc0d417e31982d98e059bea3693d508047/imgs/cRedAnno_plus_Intro.svg},
+  code={https://github.com/diku-dk/credanno},
+  selected={true},
+}
+
 @inproceedings{luReducingAnnotationNeed2022,
   title = {Reducing Annotation Need in Self-Explanatory Models for Lung Nodule Diagnosis},
   booktitle = {Workshop on Interpretability of Machine Intelligence in Medical Image Computing (iMIMIC) at MICCAI},
@@ -16,6 +33,7 @@
   award={Oral},
   abstract={Feature-based self-explanatory methods explain their classification in terms of human-understandable features. In the medical imaging community, this semantic matching of clinical knowledge adds significantly to the trustworthiness of the AI. However, the cost of additional annotation of features remains a pressing issue. We address this problem by proposing cRedAnno, a data-/annotation-efficient self-explanatory approach for lung nodule diagnosis. cRedAnno considerably reduces the annotation need by introducing self-supervised contrastive learning to alleviate the burden of learning most parameters from annotation, replacing end-to-end training with two-stage training. When training with hundreds of nodule samples and only 1% of their annotations, cRedAnno achieves competitive accuracy in predicting malignancy, meanwhile significantly surpassing most previous works in predicting nodule attributes. Visualisation of the learned space further indicates that the correlation between the clustering of malignancy and nodule attributes coincides with clinical knowledge. Our complete code is open-source available: https://github.com/diku-dk/credanno. },
   html={https://doi.org/10.1007/978-3-031-17976-1_4},
+  pdf={https://link.springer.com/content/pdf/10.1007/978-3-031-17976-1_4.pdf},
   arxiv={2206.13608},
   preview={luReducingAnnotationNeed2022.svg},
   code={https://github.com/diku-dk/credanno},
@@ -28,10 +46,10 @@
   title = {Is Image-to-Image Translation the Panacea for Multimodal Image Registration? A Comparative Study},
   author = {J. Lu and J. Öfverstedt and J. Lindblad and N. Sladoje},
   year = {2021},
-  journal = {arXiv:2103.16262 [cs, eess]},
+  journal = {arXiv:2103.16262 [eess.IV]},
   eprint = {2103.16262},
   eprinttype = {arxiv},
-  primaryclass = {cs, eess},
+  primaryclass = {eess.IV},
   archiveprefix = {arXiv},
 
   abbr={arXiv},
