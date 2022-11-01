@@ -27,4 +27,15 @@ Teaching Assistant, Uppsala University
 <!-- - BSc Level
 - 1DL301 -->
 
+<br/>
 
+## Supervision
+
+- [Yufei Yuan](https://www.linkedin.com/in/yufei-yuan-904760235/), [MSc student in Computer Science](https://studies.ku.dk/masters/computer-science/), University of Copenhagen, 2022
+    
+    Project: Human Action Analysis using Self-Supervised Learning and Transformer
+
+
+- [Bin Zhang](https://www.linkedin.com/in/bin-zhang-a4a435236/), [MSc student in IT and Cognition](https://studies.ku.dk/masters/it-and-cognition/), University of Copenhagen, 2022
+    
+    Project: Human Action Analysis using Self-Supervised Learning and Transformer
