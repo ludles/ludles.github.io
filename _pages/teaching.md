@@ -41,25 +41,25 @@ Teaching Assistant, Uppsala University
 
 - [Yufei Yuan](https://www.linkedin.com/in/yufei-yuan-904760235/), [MSc student in Computer Science](https://studies.ku.dk/masters/computer-science/), University of Copenhagen, 2023
     
-    MSc Thesis: Interactive Human Action Exploration and Generation with Self-Supervised Learning
+    MSc Thesis: Exploring Language-Motion Integration for Motion Editing
 
 
 - [Bin Zhang](https://www.linkedin.com/in/bin-zhang-a4a435236/), [MSc student in IT and Cognition](https://studies.ku.dk/masters/it-and-cognition/), University of Copenhagen, 2023
     
-    MSc Thesis: Interactive Human Action Exploration and Generation with Self-Supervised Learning
+    MSc Thesis: Exploring Language-Motion Integration for Motion Editing
     
 
 
 - [Jiashuo Li](https://www.linkedin.com/in/jiashuo-li-376a13231/), [MSc student in Computer Science](https://studies.ku.dk/masters/computer-science/), University of Copenhagen, 2023 
     - Co-supervisor, wtih main supervisor [Prof Tariq Osman Andersen](https://di.ku.dk/english/staff/?pure=en/persons/353044)
     
-    MSc Thesis: Exploring the Usefulness of Explainable AI Methods in Chest X-Ray Diagnosis 
+    MSc Thesis: Explainable AI Algorithms' Usefulness for Interpreting Findings in Thorax X-rays: an Exploratory Study 
 
 
 - [Xinyi Huang](https://www.linkedin.com/in/xinyi-huang-384364231/), [MSc student in Computer Science](https://studies.ku.dk/masters/computer-science/), University of Copenhagen, 2023 
     - Co-supervisor, wtih main supervisor [Prof Tariq Osman Andersen](https://di.ku.dk/english/staff/?pure=en/persons/353044)
     
-    MSc Thesis: Exploring the Usefulness of Explainable AI Methods in Chest X-Ray Diagnosis 
+    MSc Thesis: Explainable AI Algorithms' Usefulness for Interpreting Findings in Thorax X-rays: an Exploratory Study 
 
 
 
