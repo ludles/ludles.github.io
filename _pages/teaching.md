@@ -9,6 +9,12 @@ nav_order: 4
 
 ## Courses
 
+#### [Signal and Image Processing (SIP), Spring 2024](https://kurser.ku.dk/course/ndaa09027u/2023-2024)
+Teaching Assistant, University of Copenhagen
+
+<!-- - MSc Level
+- NDAA09027U -->
+
 #### [Signal and Image Processing (SIP), Spring 2023](https://kurser.ku.dk/course/ndaa09027u/2022-2023)
 Teaching Assistant, University of Copenhagen
 
