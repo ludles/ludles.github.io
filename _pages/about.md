@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>PhD Student</b> @ <a href="https://www.ku.dk/english/">University of Copenhagen</a>
+subtitle: <b>PhD Candidate</b> @ <a href="https://www.ku.dk/english/">University of Copenhagen</a>
 
 profile:
   align: right
