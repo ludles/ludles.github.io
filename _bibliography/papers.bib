@@ -1,15 +1,57 @@
 ---
 ---
 
+@article{luMERAMultimodalMultiscale2026,
+  title = {MERA: Multimodal and Multiscale Self-Explanatory Model with Considerably Reduced Annotation for Lung Nodule Diagnosis},
+  author = {J. Lu and C. Yin and K. Erleben and M. B. Nielsen and S. Darkner},
+  year = {2026},
+  journal = {Biomedical Signal Processing and Control},
+  volume = {121},
+  pages = {110339},
+  issn = {17468094},
+  doi = {10.1016/j.bspc.2026.110339},
+
+  abbr={BSPC},
+  abstract={Background and objective: Lung cancer, a leading cause of cancer-related deaths globally, emphasises the importance of early detection for improving patient outcomes. Pulmonary nodules, often early indicators of lung cancer, necessitate accurate and timely diagnosis. Despite advances in Explainable Artificial Intelligence (XAI), many existing systems struggle to provide clear, comprehensive explanations, especially in scenarios with limited labelled data. This study introduces MERA, a Multimodal and Multiscale self-Explanatory model designed for lung nodule diagnosis with considerably Reduced Annotation requirements. Methods: MERA integrates unsupervised and weakly supervised learning strategies, including self-supervised learning techniques and Vision Transformer architecture for unsupervised feature extraction, followed by a hierarchical prediction mechanism that leverages sparse annotations through semi-supervised active learning in the learned latent space. MERA explains its decisions on multiple levels: model-level global explanations through semantic latent space clustering, instance-level case-based explanations providing similar instances, local visual explanations via attention maps, and concept explanations based on critical nodule attributes. Results: Evaluations on the public LIDC dataset underscore MERA's superior diagnostic accuracy and self-explainability. With only 1% of annotated samples, MERA achieves diagnostic accuracy comparable to or exceeding that of state-of-the-art methods that require full annotation. The model's inherent design delivers comprehensive, robust, multilevel explanations that align closely with clinical practices, thereby enhancing the trustworthiness and transparency of the diagnostic process. Conclusions: MERA addresses critical gaps in XAI and lung nodule diagnosis by providing a self-explanatory framework with multimodal and multiscale explanations and significantly reduced annotation needs. The demonstrated viability of unsupervised and weakly supervised learning in this context lowers the barrier to deploying diagnostic AI systems in broader medical domains. MERA represents a significant step towards more transparent, understandable, and trustworthy AI systems in healthcare. Our complete code is open-source available: https://github.com/diku-dk/credanno.},
+  html={https://doi.org/10.1016/j.bspc.2026.110339},
+  arxiv={2103.16262},
+  preview={https://ars.els-cdn.com/content/image/1-s2.0-S1746809426008931-gr1_lrg.jpg},
+  code={https://github.com/diku-dk/credanno},
+  selected={true},
+}
+
+
+@inproceedings{sporringLocallyOrderlessNetworks2024,
+  title = {Locally Orderless Networks},
+  booktitle = {Northern {{Lights Deep Learning Conference}} 2025},
+  author = {J. Sporring and P. Xu and J. Lu and F. B. Lauze and S. Darkner},
+  year = {2024},
+
+
+  abbr={NLDL},
+  award={Oral},
+  abstract={We present Locally Orderless Networks (LON) and its theoretic foundation which links it to Convolutional Neural Networks (CNN), to Scale-space histograms, and measurement theory. The key elements are a regular sampling of the bias and the derivative of the activation function. We compare LON, CNN, and Scale-space histograms on prototypical single-layer networks. We show how LON and CNN can emulate each other, how LON expands the set of functionals computable to non-linear functions such as squaring. We demonstrate simple networks which illustrate the improved performance of LON over CNN on simple tasks for estimating the gradient magnitude squared, for regressing shape area and perimeter lengths, and for explainability of individual pixels' influence on the result. },
+  html={https://openreview.net/forum?id=JNxddbPPWt#discussion},
+  pdf={https://openreview.net/pdf?id=JNxddbPPWt},
+  arxiv={2406.13514},
+  preview={LON_fig1.png},
+  selected={false},
+}
+
+
 @inproceedings{chongXfibrosis2024,
   title={XFibrosis: Explicit Vessel-Fiber Modeling for Fibrosis Staging from Liver Pathology Images},
   author={C. Yin and S. Liu and F. Lyu and J. Lu and S. Darkner and V. W. Wong and P. C. Yuen},
   booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024},
+  doi={10.1109/CVPR52733.2024.01072}, 
 
   abbr={CVPR},
   award={Poster},
   abstract={The increasing prevalence of non-alcoholic fatty liver disease (NAFLD) has caused public concern in recent years. Fibrosis staging from liver biopsy images plays a key role in demonstrating the histological progression of NAFLD. Fibrosis mainly involves the deposition of fibers around vessels. Current deep learning-based fibrosis staging methods learn spatial relationships between tissue patches but do not explicitly consider the relationships between vessels and fibers, leading to limited performance and poor interpretability. In this paper, we propose an eXplicit vessel-fiber modeling method for Fibrosis staging from liver biopsy images, namely XFibrosis. Specifically, we transform vessels and fibers into graph-structured representations, where their micro-structures are depicted by vessel-induced primal graphs and fiber-induced dual graphs, respectively. Moreover, the fiber-induced dual graphs also represent the connectivity information between vessels caused by fiber deposition. A primal-dual graph convolution module is designed to facilitate the learning of spatial relationships between vessels and fibers, allowing for the joint exploration and interaction of their micro-structures. Experiments conducted on two datasets have shown that explicitly modeling the relationship between vessels and fibers leads to improved fibrosis staging and enhanced interpretability.},
+  html={https://ieeexplore.ieee.org/abstract/document/10656838},
+  pdf={https://openaccess.thecvf.com/content/CVPR2024/papers/Yin_XFibrosis_Explicit_Vessel-Fiber_Modeling_for_Fibrosis_Staging_from_Liver_Pathology_CVPR_2024_paper.pdf},
+  preview={XFibrosis_fig3.png},
   selected={true},
 }
 

@@ -13,10 +13,11 @@
   contents:
     - title: PhD in Computer Science
       institution: Department of Computer Science, University of Copenhagen
-      year: 2021 - now
+      year: 2021 - 2026
       description:
-        # - Description 1.
-        # - Description 2.
+        - Dissertation: A Trustworthy Second Opinion: Self-Explanatory AI for Lung Nodule Diagnosis
+        - Supervisors: Sune Darkner, Michael Bachmann Nielsen
+        - Committee: Jens Petersen, Dimitrios Papadopoulos, Axel Carlier
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
